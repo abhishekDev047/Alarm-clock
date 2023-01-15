@@ -33,6 +33,11 @@
             border: 2px solid rgb(10, 200, 207); 
             border-radius: 13px;
         }
+        .small{
+            padding: 5px 5px;
+            border: 2px solid rgb(10, 200, 207); 
+            border-radius: 7px;
+        } 
         #mane{
             text-align: center;
         }
@@ -71,7 +76,7 @@ if (p>0) {
     
     const timerfunc =  ()=>{
         a.innerHTML = `<input placeholder=" timer in seconds" type="number" id="input">
-        <button onclick="conf()">start</button>`
+        <button onclick="conf()" class="small">start</button>`
     };
 
     const stopfunc = ()=>{
